@@ -1,0 +1,38 @@
+1.Data-preprocessing
+- drop unnecessary features to reduce model complexity: country, imdb index, year
+
+- handle data missing
+
+- handle categorical 
+
+- select meaningful features ---NOT DONE
+
+- standadize data
+2. Reduce dimensionality
+-PCA
+
+3. Model evaluation and tunning hyperparameters
+- use pipeline
+- k-fold cross validation
+- learning curve and validation curve
+- grid-search for fine-tuning models
+
+4. Test ensemble methods
+- apply bagging
+- apply adaboost
+to compare performance
+
+5. Sentiment analysis
+- apply bag of words
+- cleaning text, convert to feature vector, tf-idf
+
+compare with word2vec
+
+
+
+6. Save and reload pre-trained model
+
+
+
+
+
