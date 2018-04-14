@@ -121,6 +121,7 @@ def numericalize_data(data_set):
 
     # drop unnecessary features to reduce model's complexity
     data_set = data_set.drop(['country', 'imdb', 'year', 'title'], axis=1)
+    data_set.genre = class_le.fit_transform(data_set.genre.values)
     data_set.actor1 = class_le.fit_transform(data_set.actor1.values)
     data_set.actor2 = class_le.fit_transform(data_set.actor2.values)
     data_set.director = class_le.fit_transform(data_set.director.values)
